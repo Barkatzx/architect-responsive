@@ -1,0 +1,113 @@
+/* Font Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+/* Header And Banner Styles */
+.header{
+    background-color: rgba(255, 144, 14, 0.1);;
+}
+.title{
+    font-weight: 700;
+    font-size: 45px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 18px;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+nav li a:hover{
+    color: white;
+    background-color: #FF900E;
+    border-radius: 5px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.banner{
+    text-align: center;
+}
+.banner img{
+    width: 1440px;
+    height: 700px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 64px;
+    width: 862px;
+    padding-left: 500px;
+    margin-bottom: 30px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 868px;
+    padding-left: 500px;
+    margin-bottom: 30px;
+}
+.button{
+    height: 64px;
+    border: none;
+    background: #FF900E;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+    }
+    /* Quick List Stylesheet */
+    .list-container{
+        display: flex;
+        margin-top: 85px;
+    }
+    .list-gallery{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding-left: 300px;
+    }
+    .grid img{
+        width: 342px;
+        height: 342px;
+    }
+    .info{
+        width: 537px;
+        height: 304px;
+        padding-left: 75px;
+        padding-top: 287px;
+    }
+    .list-title{
+        font-weight: 500;
+        font-size: 45px;
+    }
+    .quick{
+        font-weight: 500;
+        font-size: 45px;
+        color: #727272;
+    }
+    .our{
+        font-weight: 700;
+        font-size: 45px;
+        color: #131313;
+    }
+    .feature{
+        font-weight: 700;
+        font-size: 45px;
+        color: #FF900E;
+    }
