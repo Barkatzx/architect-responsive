@@ -121,9 +121,11 @@ nav ul{
 }
 /* Feature Section Stylesheet */
 .fa-solid{
-    width: 4px;
-    height: 106px;
+    width: 6px;
+    height: 100px;
     background: #FF900E;
+    position: absolute;
+    margin-right: 1em;
 }
 .img{
     margin-top: 80px;
@@ -134,6 +136,7 @@ nav ul{
 }
 .feature-info{
     padding-left: 300px;
+    margin-top: 80px;
 }
 .feature-title{
     width: 448px;
