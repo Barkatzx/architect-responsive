@@ -9,7 +9,7 @@ body{
 .header{
     background-color: rgba(255, 144, 14, 0.1);;
 }
-.title{
+.title-logo{
     font-weight: 700;
     font-size: 45px;
 }
@@ -71,6 +71,10 @@ nav ul{
     color: white;
     margin-bottom: 30px;
     }
+    /* Header And Banner Mobile Responsive */
+@media only screen and (max-width:688px){
+}
+
     /* Quick List Stylesheet */
     .list-container{
         display: flex;
@@ -112,3 +116,134 @@ nav ul{
         font-size: 45px;
         color: #FF900E;
     }
+    /* Quick List Section Mobile Responsive */
+@media only screen and (max-width:688px){
+}
+/* Feature Section Stylesheet */
+.fa-solid{
+    width: 4px;
+    height: 106px;
+    background: #FF900E;
+}
+.img{
+    margin-top: 80px;
+}
+.features{
+    display: flex;
+    gap: 20px;
+}
+.feature-info{
+    padding-left: 300px;
+}
+.feature-title{
+    width: 448px;
+    font-weight: 700;
+    font-size: 45px;
+}
+.feature-description{
+    width: 561px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.feature-box{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
+.box-title{
+    width: 240.37px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    padding-top: 30px;
+    padding-left: 32px;
+}
+.box-description{
+    width: 492.23px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-left: 32px;
+    padding-bottom: 30px;
+}
+/* Experience Section Design */
+/* .experience{
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    justify-content: center;
+    text-align: center;
+} */
+/* Some Fact Section Designs */
+.fact-info{
+    padding-left: 300px;
+    margin-top: 130px;
+}
+.fact-container{
+    display: flex;
+    gap: 125px;
+    margin-top: 100px;
+    padding-left: 300px;
+}
+.box-fact{
+    width: 242px;
+    height: 242px;
+    border: 1px solid #FF900E;
+    border-radius: 10px;
+    text-align: center;
+}
+.box-fact img{
+    padding-top: 20px;
+}
+.fact-title{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.fact-description{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+/* Sponsors Section Stylesheet */
+.sponsor-info{
+    margin-top: 130px;
+    padding-left: 700px;
+    text-align: center;
+}
+.sponsor-container{
+    display: flex;
+    gap: 155px;
+    margin-top: 50px;
+    padding-left: 300px;
+}
+/* Team Member styles */
+.team-container{
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+    justify-content: center;
+}
+.team-member img{
+    width: 342px;
+    height: 342px;
+    border-radius: 10px;
+}
+.team-member{
+    text-align: center;
+}
+/* Footer Design StyleSheet */
+.footer{
+    background: #FFF4E7;
+    border-radius: 8px;
+    height: 100px;
+}
+.footer-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+    padding-top: 50px;
+}
