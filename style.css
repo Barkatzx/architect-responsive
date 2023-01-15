@@ -382,10 +382,7 @@ nav ul{
     font-size: 20px;
     color: #727272;
 }
-/* Fact Info Section Mobile Responsive */
-@media only screen and (max-width:688px){
 
-}
 /* Sponsors Section Stylesheet */
 .sponsor-info{
     margin-top: 130px;
@@ -398,6 +395,7 @@ nav ul{
     margin-top: 50px;
     padding-left: 300px;
 }
+
 /* Team Member styles */
 .team-container{
     display: flex;
@@ -427,9 +425,4 @@ nav ul{
     color: #424242;
     text-align: center;
     padding-top: 50px;
-}
-
-/* Display None */
-.sponsor-info, .sponsor-container, .team-container, .footer,{
-    display: none;
 }
